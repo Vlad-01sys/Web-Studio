@@ -1,0 +1,44 @@
+:root
+header>a{
+    color:#2196F3
+}
+header{
+    background-color: #ECECEC;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 60px;
+}
+.hero{
+    background-color: #2F303A;
+}
+main button{
+    background-color:#2196F3;
+}
+
+button{
+    color:#FFFFFF
+}
+.team{
+    background-color: #F5F4FA;
+}
+p{
+    font-size: 24px;
+    color:#757575
+}
+main h2{
+    font-size:42px;
+}
+footer{
+    background-color: #2F303A;
+}
+footer>a{
+    color:#2196F3
+}
+footer p{
+    font-size: 24px;
+    color:#FFFFFF
+}
+footer>address a{
+    color:#ffffff60
+}
