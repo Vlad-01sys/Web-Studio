@@ -1,0 +1,45 @@
+body {
+    font-family:"Roboto", sans-serif
+}
+
+.header-logo {
+    font-family:" Raleway", sans-serif;
+    text-decoration:none
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.hero-title {
+    line-height: 1.4;
+}
+
+.hero-button {
+    line-height: 1.88;
+}
+
+.details-text {
+    line-height: 1.7;
+}
+
+.footer-item {
+    line-height: 1.7;
+}
+
+.portfolio-button {
+    line-height: 1.6;
+}
+
+.portfolio-subtitle {
+    line-height: 2;
+}
