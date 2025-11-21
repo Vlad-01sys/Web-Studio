@@ -1,6 +1,7 @@
 :root {
-    --bg-header--text: #FFFFFF;
-    --text-hover--logo:#2196F3;
+    --bg-header-text: #FFFFFF;
+    --text-hover-logo:#2196F3;
+    --text-subtitle-logo:#000000;
     --text-main:#212121;
     --text-p:#757575;
     --bg-hero:#2F303A;
@@ -32,7 +33,7 @@ body {
 }
 
 .logo-subtitle {
-    color:#000000
+    color:var(--text-subtitle-logo);
 }
 
 .header-link {
