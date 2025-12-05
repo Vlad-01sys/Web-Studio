@@ -180,11 +180,17 @@ body {
     margin-top: 94px;
 }
 
+.projects-img {
+    border: 1px solid grey;
+    width: 370px;
+    height: 404px;
+}
+
 .projects-list {
      display:flex;
      flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 .projects-subtitle {
