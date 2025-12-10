@@ -67,7 +67,7 @@ body {
 .hero-title {
     line-height: 1.4;
     font-size: 44px;
-    font-weight: 900;
+    font-weight: 696;
     letter-spacing: 2.64px;
     text-align: center;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ body {
 
 .team {
     background-color: var(--team-bg);
-    padding-top: 186px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -129,6 +129,11 @@ body {
     letter-spacing: 1.08px;
     text-align: center;
     color:var(--text-main);
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
 }
 
 .team-name {
@@ -180,7 +185,7 @@ body {
     margin-top: 94px;
 }
 
-.projects-img {
+.projects-item {
     border: 1px solid grey;
     width: 370px;
     height: 404px;
