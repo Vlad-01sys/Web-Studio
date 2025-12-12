@@ -44,6 +44,10 @@ body {
     color:var(--text-main);
 }
 
+.header-link:hover {
+    color: #2196F3;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
