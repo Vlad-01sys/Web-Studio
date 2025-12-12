@@ -96,6 +96,31 @@ body {
     color:var(--text-main);
 }
 
+.details-subtitle::before {
+    content: "";
+    display: inline-block;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+    margin-bottom: 30px;
+}
+
+.details-item:nth-child(2) .details-subtitle::before {
+    background-image: url(../img/img/clock\ 1.png);
+}
+
+.details-item:nth-child(3) .details-subtitle::before {
+    background-image: url(../img/img/diagram\ 1.png);
+}
+
+.details-item:nth-child(4) .details-subtitle::before {
+    background-image: url(../img/img/astronaut\ 1.png);
+}
+
 .details-text {
     line-height: 1.7;
     font-size: 14px;
