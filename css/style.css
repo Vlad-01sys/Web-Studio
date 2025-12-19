@@ -111,7 +111,7 @@ body {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
-    background-image: url(../img/img/group.png);
+    background-image: url("../img/img/group.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px 70px;
@@ -120,17 +120,17 @@ body {
 }
 
 .details-item:nth-child(2) .details-subtitle::before {
-    background-image: url(../img/img/clock\ 1.png);
+    background-image: url("../img/img/clock\ 1.png");
      border-radius: 4px;
 }
 
 .details-item:nth-child(3) .details-subtitle::before {
-    background-image: url(../img/img/diagram\ 1.png);
+    background-image: url("../img/img/diagram\ 1.png");
      border-radius: 4px;
 }
 
 .details-item:nth-child(4) .details-subtitle::before {
-    background-image: url(../img/img/astronaut\ 1.png);
+    background-image: url("../img/img/astronaut\ 1.png");
      border-radius: 4px;
 }
 
