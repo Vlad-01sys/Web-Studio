@@ -32,8 +32,13 @@ body {
     padding-bottom: 25px;
 }
 
+
 .logo-subtitle {
     color:var(--text-subtitle-logo);
+}
+
+.logo-footer {
+    color: var(--text-footer);
 }
 
 .header-link {
@@ -64,16 +69,16 @@ body {
 
 .hero {
     background-color: var(--bg-hero);
-    padding-top: 200px;
-    padding-bottom: 280px;
+    padding-top: 207px;
+    padding-bottom: 273px; 
 }
 
 .hero-title {
     line-height: 1.4;
     font-size: 44px;
-    font-weight: 696;
+    font-weight: 696px;
     letter-spacing: 2.64px;
-    text-align: center;
+     text-align: center;
     text-transform: uppercase;
     color:var(--bg-header-text);
 }
@@ -156,6 +161,10 @@ body {
     padding-bottom: 94px;
 }
 
+.team-item {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.20);
+}
+
 .team-subtitle {
     font-weight: 700;
     font-size: 36px;
@@ -188,7 +197,7 @@ body {
 .footer {
     background-color: var(--bg-footer);
     padding-top: 60px;
-    padding-bottom: 161px;
+    padding-bottom: 60px;
 }
 
 .footer-item {
@@ -198,6 +207,7 @@ body {
     letter-spacing: 0.42px;
     color:var(--text-footer);
 }
+
 
 .portfolio-button {
     line-height: 1.6;
@@ -224,10 +234,15 @@ body {
     height: 404px;
 }
 
+.projects-item:hover {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
 .projects-list {
      display:flex;
      flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 94px;
     gap: 30px;
 }
 
@@ -236,6 +251,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1.08px;
+    margin-left: 24px;
     color:var(--text-main);
 
 }
@@ -246,7 +262,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.48px;
     color:var(--text-p);
-    margin-bottom: 94px;
+    margin-left: 24px;
 }
 
 .header-wrap .cointaner { 
@@ -267,7 +283,7 @@ body {
 
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
     gap: 30px;
