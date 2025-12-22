@@ -1,6 +1,7 @@
 ul, li {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 p {
@@ -12,3 +13,12 @@ p {
 a {
    text-decoration: none;
 }
+
+.portfolio-button {
+    border: none;
+}
+
+.hero-button {
+    border: none;
+}
+    

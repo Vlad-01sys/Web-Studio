@@ -1,3 +1,5 @@
+
+
 :root {
     --bg-header-text: #FFFFFF;
     --text-hover-logo:#2196F3;
@@ -8,7 +10,6 @@
     --team-bg:#F5F5FA;
     --bg-footer:#2F303A;
     --text-footer:#FFFFFF;
-    --button-bg:#2196F3;
 }
 
 .cointaner {
@@ -74,13 +75,17 @@ body {
 }
 
 .hero-title {
-    line-height: 1.4;
+    width: 696px;
+    height: 120px;
+     line-height: 1.4;
     font-size: 44px;
-    font-weight: 696px;
+    font-weight: 900;
     letter-spacing: 2.64px;
      text-align: center;
     text-transform: uppercase;
     color:var(--bg-header-text);
+    margin: 0 auto;
+    margin-bottom: 23px;
 }
 
 .hero-button {
@@ -90,7 +95,12 @@ body {
     letter-spacing: 0.96px;
     text-align: center;
     text-transform: uppercase;
-    color:var(--bg-button);
+   color:var(--bg-header-text);
+   background-color: var(--text-hover-logo);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.15);
 }
 
 .details {
@@ -111,7 +121,7 @@ body {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
-    background-image: url("../img/img/group.png");
+    background-image: url("../img/img/group01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px 70px;
@@ -217,6 +227,15 @@ body {
     text-align: center;
     background-color: var(--team-bg);
     color:var(--text-main);
+    width: 125px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.portfolio-button:hover {
+    border-radius: 4px;
+    background-color: var(--text-hover-logo);
+    color: var(--team-bg);
 }
 
 .portfolio-list {
@@ -231,7 +250,7 @@ body {
 .projects-item {
     border: 1px solid grey;
     width: 370px;
-    height: 404px;
+    /* height: 404px; */
 }
 
 .projects-item:hover {
@@ -263,6 +282,7 @@ body {
     letter-spacing: 0.48px;
     color:var(--text-p);
     margin-left: 24px;
+    margin-bottom: 20px;
 }
 
 .header-wrap .cointaner { 
